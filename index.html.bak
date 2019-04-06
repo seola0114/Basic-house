@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Hanpixel</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="js/jquery.bxslider.css" rel="stylesheet" />
+	
+</head>
+<body>
+	<div id="header">
+		<a href="#"><img src="images/logo.jpg" alt="logo"></a>
+		
+		<ul class="navi">
+			<li><a href="#">NEW ARRIVALS</a></li>
+			<li><a href="#">MEN</a></li>
+			<li><a href="#">WOMEN</a></li>
+			<li><a href="#">KIDS</a></li>
+			<li><a href="#">SALE</a></li>
+			<li><a href="#">GROUP ORDER</a></li>
+		</ul>
+	
+	</div>
+	<div id="mainimage">
+		<ul class="bxslider">
+		  <li><img src="images/pic1.jpg" /></li>
+		  <li><img src="images/pic2.jpg" /></li>
+		  <li><img src="images/pic3.jpg" /></li>
+		  <li><img src="images/pic4.jpg" /></li>
+		</ul>
+	</div>
+	
+	<div id="cube">
+		<div class="cube01 gray">PICTORIAL</div>
+		 <div class="cube02"><img src="images/cube02.jpg" alt="cube02"/></div>
+		 <div class="cube03 gray">JOURNAL</div>
+		 <div class="cube04"><img src="images/cube04.jpg" alt="cube04"/></div>
+		 <div class="cube05"><img src="images/cube05.jpg" alt="cube05"/></div>
+		 <div class="cube06 gray">ONLINE SPECIAL</div>
+		 <div class="cube07 gray">OUTLET</div>
+		 <div class="cube08"><img src="images/cube08.jpg" alt="cube08"/></div>
+	</div>
+	
+	<div id="new">
+		<div>NEW ARRIVALS</div>
+		<img src="images/product1.jpg"/>
+		<p>
+		티셔츠
+		에르베튈레 여 40수 고밀도 면 네크라인 프린트 오버핏 셔츠
+		고밀도 면 오버핏셔츠로 에르베퇼레프린트 포인트를 통해 보다 캐주얼하고 영한 느낌이 더해진 디자인의 셔츠
+		\39,800
+		</p>
+	</div>
+
+</body>
+</html>

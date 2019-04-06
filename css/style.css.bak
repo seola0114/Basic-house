@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{
+	margin: 0; padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Nanum Gothic", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+body {
+	width: 900px;
+	margin: 0 auto;
+	}
+
+div#header { margin: 40px 0;  }
+div#header img { width : 68px; height: 71px; border: 0;  }
+
+div#header ul.navi { float: right; }
+div#header ul.navi li { 
+	float: left; 
+	font-size: 12px;
+	font-weight: 400;
+	padding-right: 15px;
+	}
+
+#mainimage {
+	width: 900px;
+	height: 500px;
+	background-color: #898989;
+}
+
+div#mainimage ul.bxslider li {
+	width: 900px;
+	}
+
+div#cube { 
+	margin-top: 200px;
+	width: 900px; 
+	height: 720px;
+	position: relative;
+	}
+
+div#cube img { vertical-align:top; }
+
+div#cube div.gray {
+	width: 140px;
+	height: 140px;
+	padding: 20px;
+	font-size: 14px;
+	background-color: #f4f4f4;
+	}
+
+div#cube div {
+	float: left;
+	}
+
+div#cube div.cube03 {
+	float: right;
+}
+
+div#cube div.cube07 {
+	position: relative;
+	z-index: 999;
+}
+
+div#cube div.cube08 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+div#new {
+	width: 900px;
+	height: 560px;
+	background-color: #f4f4f4;
+	padding: 100px 0;
+	}
+
+h1 { font-size: 15px; 
+		text-align: center;
+		}

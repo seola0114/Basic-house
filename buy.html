@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Basic House</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="js/jquery.bxslider.css" rel="stylesheet" />
+	
+</head>
+ <body>
+  		<div id="header" class="wrapper">
+			<a href="index.html"><img src="images/logo.jpg" alt="logo"/></a>		
+			
+			<div id='cssmenu'>
+				<ul class="navi">
+					<li><a href='#'>HOME</a></li>
+				  
+					<li><a href='#'>NEW ARRIVALS</a>
+					  <ul>
+						 <li class='has-sub'><a href='#'>MEN</a></li>
+						 <li class='has-sub'><a href='#'>WOMEN</a></li>
+					  </ul>
+					</li>
+
+					<li><a href='#'>MEN</a>
+						<ul>
+						 <li class='has-sub'><a href='#'>ESSENTIAL</a></li>
+						 <li class='has-sub'><a href='#'>BEST ITEM</a></li>
+						 <li class='has-sub'><a href='#'>OUTERWEAR</a></li>
+						 <li class='has-sub'><a href='#'>PULLOVER</a></li>
+						 <li class='has-sub'><a href='#'>CARDIGAN</a></li>
+						 <li class='has-sub'><a href='#'>TEES</a></li>
+						 <li class='has-sub'><a href='#'>SHIRTS</a></li>
+						 <li class='has-sub'><a href='#'>PANTS</a></li>
+						 <li class='has-sub'><a href='#'>ACCESSORIES</a></li>
+					  </ul>
+					</li>
+					
+					<li><a href='#'>WOMEN</a>
+						<ul>
+						 <li class='has-sub'><a href='#'>ESSENTIAL</a></li>
+						 <li class='has-sub'><a href='#'>BEST ITEM</a></li>
+						 <li class='has-sub'><a href='#'>OUTERWEAR</a></li>
+						 <li class='has-sub'><a href='#'>PULLOVER</a></li>
+						 <li class='has-sub'><a href='#'>CARDIGAN</a></li>
+						 <li class='has-sub'><a href='#'>TEES</a></li>
+						 <li class='has-sub'><a href='#'>SHIRTS</a></li>
+						 <li class='has-sub'><a href='#'>PANTS</a></li>
+						 <li class='has-sub'><a href='#'>ACCESSORIES</a></li>
+					  </ul>
+					</li>
+					
+					<li><a href="#">KIDS</a>
+					<ul>
+						 <li class='has-sub'><a href='#'>BOYS</a></li>
+						 <li class='has-sub'><a href='#'>GIRLS</a></li>
+					  </ul>
+					</li>
+
+					<li><a href="#">SALE</a></li>
+
+					<li><a href="#">GROUP ORDER</a></li>
+
+				</ul>
+			</div>
+
+		</div><!--header-->
+
+		<div id="product-view">
+			
+			<div class="zoom prod-img">
+				<img class="prod-img" src="images/product-view.jpg" alt="상품이미지"/>
+				<!--<img class="zoomimg" src="images/product-view-zoom.jpg"  alt="상품이미지큰사이즈">-->
+			</div>
+			
+			
+			<div class="info">
+				<p>
+					<h1 class="product-name">(모노)여 퀼팅 스테디움 점퍼</h1>
+					<h2>울터치 외관의 혼방 원사를 사용한 베이직한 디자인의 니트입니다. 
+					보온성과 탄력성이 훌륭한 아크릴 혼방 소재를 적용했습니다. 어깨에 조직감이 다른 니트의 짜임으로 포인트를 주었습니다.
+					네크라인과 소매 및 밑단은 시보리를 적용해 편안한 착장감을 전해줍니다.
+					6가지 다양한 컬러와 적당한 두께감으로 겨울까지 길에 입을 수 있는 베이직 아이템입니다.
+					</h2>
+					<p class="price">
+						<span class="normal-price-small">정상가<span class="normal-price"> 39,500원</span></span><br>
+						<span class="sale-price-small">할인가<span class="sale-price"> 15,000원</span></span>
+					</p>
+				</p>
+				
+				<div class="size_option">
+					<a class="select_size" href="#!">Select Size</a>
+					<ul class="size_option_inner">
+						<li class=""><a href="#">XS</a></li>
+						<li class=""><a href="#">S</a></li>
+						<li class=""><a href="#">M</a></li>
+						<li class=""><a href="#">L</a></li>
+						<li class=""><a href="#">XL</a></li>
+						<li class=""><a href="#">XXL</a></li>
+					</ul><!--size_option_inner-->
+				</div><!--size_option-->
+			
+				<div class="buy">
+					<a href="#" class="">BUY</a>
+				</div>
+				<div class="save">
+					<a href="#" class="">SAVE</a>
+				</div>
+				<div class="share">
+					<a href="#" class="">SHARE</a>
+				</div>
+				</div><!--info-->
+		</div><!--product-view-->
+
+
+		
+		<div id="product-tabs">
+			<div id="tabs-wrap01">
+				<ul class="tabs" id="product-tabs-01">
+					<li class="">
+						<a href="#product-tabs-01" class="tab1">
+							<span>상품설명</span>
+						</a>
+					</li>
+					
+						<li class="">
+							<a href="#product-tabs-02" class="tab2">
+								<span>사이즈</span>
+							</a>
+						</li>
+					<li class="">
+							<a href="#product-tabs-03" class="tab3">
+								<span>후기</span>
+							</a>
+						</li>
+					<li class="shipping-tab inactive-tab">
+						<a href="#product-tabs-04" class="tab4">
+							<span>배송 &amp; 반품</span>
+						</a>
+					</li>
+				</ul>
+
+				<div id="additional-info">
+					<img src="images/tab1_01.jpg" alt="">
+					<img src="images/tab1_02.jpg" alt="">
+					<img src="images/tab1_03.jpg" alt="">
+					
+					<div class="season">
+						<h2>
+						<strong>시즌</strong><br>
+						봄, 가을<br><br>
+						<strong>생산지</strong><br>
+						중국&nbsp;
+						</h2>
+					</div>
+				</div>
+		</div> <!--	<div id="tabs-wrap01"> 끝-->
+		
+		<div id="tabs-wrap02">
+			<div id="product-tabs">
+				<ul class="tabs" id="product-tabs-02">
+					<li class="">
+						<a href="#product-tabs-01" class="tab1">
+							<span>상품설명</span>
+						</a>
+					</li>
+					
+						<li class="">
+							<a href="#product-tabs-02" class="tab2">
+								<span>사이즈</span>
+							</a>
+						</li>
+					<li class="">
+							<a href="#product-tabs-03" class="tab3">
+								<span>후기</span>
+							</a>
+						</li>
+					<li class="shipping-tab inactive-tab">
+						<a href="#product-tabs-04" class="tab4">
+							<span>배송 &amp; 반품</span>
+						</a>
+					</li>
+				</ul>
+
+			<div id="table">
+			<table class="size-chart">
+				<tbody>
+				<tr><th>A&amp;F <br>(XS - L)</th><th>A&amp;F <br>(SIZED)</th><th>BUST <br>(INCHES)</th><th>BUST <br>(CM)</th><th>ITALY</th><th>EU</th><th>UK</th><th>JAPAN</th><th>KOREA</th><th>CHINA</th></tr>
+				<tr class="alt">
+				<td>XXS</td>
+				<td>00</td>
+				<td>32</td>
+				<td>81</td>
+				<td>38</td>
+				<td>32</td>
+				<td>4 - 6</td>
+				<td>3</td>
+				<td>-</td>
+				<td>160/80A</td>
+				</tr>
+				<tr>
+				<td>XS</td>
+				<td>00 - 0</td>
+				<td>32 - 33</td>
+				<td>82 - 84</td>
+				<td>40</td>
+				<td>34</td>
+				<td>6 - 8</td>
+				<td>5 - 7</td>
+				<td>44</td>
+				<td>160/84A</td>
+				</tr>
+				<tr class="alt">
+				<td>S</td>
+				<td>2 - 4</td>
+				<td>34 - 35</td>
+				<td>86 - 89</td>
+				<td>42</td>
+				<td>36 - 38</td>
+				<td>8 - 10</td>
+				<td>7 - 9</td>
+				<td>55</td>
+				<td>165/88A</td>
+				</tr>
+				<tr>
+				<td>M</td>
+				<td>6 - 8</td>
+				<td>36 - 37</td>
+				<td>91 - 94</td>
+				<td>44</td>
+				<td>38 - 40</td>
+				<td>10 - 12</td>
+				<td>11 - 13</td>
+				<td>66</td>
+				<td>170/92A</td>
+				</tr>
+				<tr class="alt">
+				<td>L</td>
+				<td>10 - 12</td>
+				<td>38 - 39</td>
+				<td>96 - 99</td>
+				<td>46</td>
+				<td>40 - 42</td>
+				<td>14 - 16</td>
+				<td>13 - 15</td>
+				<td>77</td>
+				<td>170/96A</td>
+				</tr>
+				<tr>
+				<td>XL</td>
+				<td>14</td>
+				<td>39 - 40</td>
+				<td>100 - 102</td>
+				<td>48</td>
+				<td>44</td>
+				<td>18</td>
+				<td>17</td>
+				<td>88</td>
+				<td>175/100A</td>
+				</tr>
+				</tbody>
+			</table>
+			</div><!--table-->
+		</div>
+		</div><!--	<div id="tabs-wrap02">-->
+		
+		
+		<!--상품 후기 페이지 시작-->
+		
+		<div id="tabs-wrap03">
+		<div id="product-tabs">
+			<ul class="tabs" id="product-tabs-03">
+				<li class="">
+					<a href="#product-tabs-01" class="tab1">
+						<span>상품설명</span>
+					</a>
+				</li>
+				
+					<li class="">
+						<a href="#product-tabs-02" class="tab2">
+							<span>사이즈</span>
+						</a>
+					</li>
+				<li class="">
+						<a href="#product-tabs-03" class="tab3">
+							<span>후기</span>
+						</a>
+					</li>
+				<li class="shipping-tab inactive-tab">
+					<a href="#product-tabs-04" class="tab4">
+						<span>배송 &amp; 반품</span>
+					</a>
+				</li>
+			</ul>
+		
+			<div class="customer-review">
+				<h2>"이 상품을 구매하셨나요?"</h2>
+				<p><a href="#">구매후기 쓰기</a></p>
+			</div>
+
+		</div>
+		
+	</div><!--	<div id="tabs-wrap03">-->
+
+		
+		<div id="tabs-wrap04"><!--교환 및 반품 페이지 시작-->
+		<div id="product-tabs">
+			<ul class="tabs" id="product-tabs-04">
+				<li class="">
+					<a href="#product-tabs-01" class="tab1">
+						<span>상품설명</span>
+					</a>
+				</li>
+				
+					<li class="">
+						<a href="#product-tabs-02" class="tab2">
+							<span>사이즈</span>
+						</a>
+					</li>
+				<li class="">
+						<a href="#product-tabs-03" class="tab3">
+							<span>후기</span>
+						</a>
+					</li>
+				<li class="shipping-tab inactive-tab">
+					<a href="#product-tabs-04" class="tab4">
+						<span>배송 &amp; 반품</span>
+					</a>
+				</li>
+			</ul>
+		
+		<div id="pro_after_txt">
+							<ul>
+								<li>
+									<dl>
+										<dt>상품구매 및<br>배송안내</dt>
+										<dd>
+											⋅&nbsp;배송은 입금 확인 후 4일 이내 발송됩니다. (주말 및 공휴일 포함시 / 제주도 지방의 경우 / 재고 상황에 따라 다소 지연될 수 있습니다.)<br>
+											⋅&nbsp;쇼핑백 제공이나 선물포장은 불가합니다.<br>
+											⋅&nbsp;촬영시 함께 코디된 코디상품(넥티에, 머플러, 가방 등)은 함께 배송되지 않습니다.<br>
+											⋅&nbsp;배송 준비중일 경우 수정 및 주소 변경 등은 전화 통화 후 가능합니다.<br>
+											⋅&nbsp;배송 완료의 경우에만 교환/환불 신청이 가능합니다.
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>교환안내</dt>
+										<dd>
+											⋅&nbsp;교환신청은 배송 완료 후 7일 이내에만 하실 수 있습니다.<br>
+											⋅&nbsp;교환신청 후 7일 이내에 물류센터에 교환상품이 도착한 경우에 한해 교환처리가 정상적으로 이루어집니다.<br>
+											⋅&nbsp;교환은 주문하신 상품의 컬러와 사이즈 교환만 가능합니다.<br>
+											⋅&nbsp;교환신청은 배송완료 후 마이페이지 주문내역에서 교환접수하시면 됩니다.<br>
+											<span class="vHidden">⋅&nbsp;</span>(단, 교환상품이 품절인 경우 교환신청이 안될 수 있으며 교환접수 후 해당상품이 품절될 경우 반품 처리 해 드립니다.)<br>
+											⋅&nbsp;교환신청이 완료되면 택배는 자동신청 됩니다.(타택배 이용시 추가요금은 고객님께서 부담하시게 됩니다.)<br>
+											⋅&nbsp;재배송 상품은 반송 상품이 도착 후 확인이 완료된 뒤에 새주문 건으로 등록되어 배송됩니다.<br>
+											⋅&nbsp;'배송준비중'상태에서는 교환 및 반품 신청이 불가하며, 주문상태가 '배송 완료'이후일 경우에만 교환 및 반품 신청이 가능합니다.<br>
+											⋅&nbsp;처음 배송된 상품상태와 다를 경우(가격태그 미부착/훼손, 옷걸이 및 사은품 미동봉, 상품 훼손 및 오염, 세탁, 착용 등) 교환이 불가합니다.<br>
+											⋅&nbsp;반송 상품이 물류에 입고 후 상품 검수 완료 후 교환 상품이 배송됩니다.<br>
+											⋅&nbsp;상품의 색상은 모니터와 컴퓨터의 사양에 따라 실물과 차이가 있을 수 있으므로 교환 및 반품의 사유가 되지 않습니다.
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>반품안내</dt>
+										<dd>
+											⋅&nbsp;반품신청은 배송완료 후 7일 이내에만 하실 수 있습니다.<br>
+											⋅&nbsp;반품신청 후 7일 이내에 물류센터에 반품상품이 도착한 경우에 한해 교환처리가 정상적으로 이루어집니다.<br>
+											⋅&nbsp;반품신청은 배송완료 후 마이페이지 주문내역에서 반품 접수하시면 됩니다.<br>
+											⋅&nbsp;'배송준비중'상태에서는 교환 및 반품신청이 불가하며, 주문상태가 '배송완료'이후일 경우에만 교환 및 반품신청이 가능합니다.
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>배송 택배사</dt>
+										<dd>
+											⋅&nbsp;<strong>교환/반품시에는 [마이페이지]-[주문번호]-반품원하시는 상품 선택하셔서 반품신청 부탁드리며, 반품신청이 완료되면 택배는 자동신청 됩니다.</strong><br>
+											⋅&nbsp;30,000원 이상 구매시 무료배송/ 30,000원 미만 구매시 2,500원의 배송료가 부과됩니다.
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>교환 배송료 정책</dt>
+										<dd>
+											⋅&nbsp;<strong>고객변심, 컬러/사이즈 변경 : 교환시 왕복 배송료 5,000원 고객부담</strong><br>
+											⋅&nbsp;오배송 및 상품불량 : 무료(단, 동일제품인 경우)<br>
+											⋅&nbsp;타택배 이용시 추가요금은 고객님이 부담하시게 됩니다.
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>반품 배송료 정책</dt>
+										<dd>
+											⋅&nbsp;<strong>무료배송을 이용한 환불고객 / 고객변심 : 왕복배송료 5,000원 고객부담(최초배송료 + 반품배송료) / 오배송 및 상품불량 : 무료</strong><br>
+											⋅&nbsp;<strong>유료배송을 이용한 환불고객 / 고객변심 : 왕복배송료 5,000원 고객부담(최초배송료 + 반품배송료) / 오배송 및 상품불량 : 무료</strong><br>
+											<span class="vHidden">⋅&nbsp;</span><strong>(결제된 최초배송료는 환불시 함게 환불 처리됩니다.)</strong><br>
+											⋅&nbsp;<strong>부분 반품 취소시 (무료,유료 배송 포함)</strong><br>
+											⋅&nbsp;<strong>부분 반품 비용이 3만원 이하일 경우 5,000원</strong><br>
+											⋅&nbsp;<strong>부분 반품 비용이 3만원 이상일 경우 2,500원</strong><br>
+											⋅&nbsp;오배송 및 상품불량 : 무료<br>
+											⋅&nbsp;타택배 이용시 추가요금은 고객님이 부담하시게 됩니다.<br>
+											⋅&nbsp;<strong>배송시 택배 비용은 상품과 함게 동봉해주세요.</strong>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>교환 및 반품 주소</dt>
+										<dd>
+											⋅&nbsp;<strong>경상남도 양산시 그린공단로 38(매곡동) (주)더베이직하우스 쇼핑몰팀</strong>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+			</div>
+			</div><!--<div id="tabs-wrap04">-->
+		</div><!--product-tabs-->
+
+		<!--FOOTER-->
+
+		<div id="footer" class="wrapper">
+			<ul>
+				<li><a href="#">사이트맵</a></li>
+				<li><a href="#">브랜드 소개</a></li>
+				<li><a href="#">매장안내</a></li>
+				<li><a href="#">개인정보 취급방침</a></li>
+				<li><a href="#">이용약관</a></li>
+			</ul>
+
+			<ul class="sns">
+				<li><a href="#"><img src="images/twitter.jpg" alt=""></a></li>
+				<li><a href="#"><img src="images/facebook.jpg" alt=""></a></li>
+			</ul>
+			
+			<div><img src="images/longline.jpg" alt=""></div>
+			<div class="copyright">
+			(주)더베이직하우스 대표이사:우종완 주소:서울특별시 강남구 봉은사로 456 (삼성동, 베이직하우스빌딩) 개인정보보호책임자:장윤석<br>
+			사업자등록번호:606-81-64892 통신판매신고번호:제2014-서울강남-01369호 전화번호:052-254-1394 이메일문의:shopping@basichouse.co.kr<br>
+			COPYRIGHT (C) BASIC HOUSE. ALL RIGHTS RESERVED.
+			</div>
+
+			
+
+		</div><!--footer-->
+
+
+ </body>
+</html>

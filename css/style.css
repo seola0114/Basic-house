@@ -1,0 +1,1057 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{
+	margin: 0; padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Nanum Gothic", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+a { text-decoration: none; color:#444; }
+
+.wrapper {
+	margin: 0 auto;
+	}
+
+div#header { 
+	width: 900px;
+	margin: 40px auto;
+	}
+
+div#header img { width : 68px; height: 71px; border: 0;  }
+
+div#header ul.navi { 
+	float: right;
+	line-height: 75px;
+	}
+div#header ul.navi li { 
+	float: left; 
+	font-size: 12px;
+	font-weight: 400;
+	padding-right: 15px;
+	}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  width: 585px;
+  line-height: 1;
+  background: #ffffff;
+  float: right;
+}
+#menu-line {
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 3px;
+  background: #920b0f;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  padding: 20px 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #333333;
+  -webkit-transition: color .3s ease;
+  -moz-transition: color .3s ease;
+  -ms-transition: color .3s ease;
+  -o-transition: color .3s ease;
+  transition: color .3s ease;
+}
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+  color: #920b0f;
+  font-weight: bold;
+
+}
+
+#cssmenu > ul > li.has-sub:hover > a::after {
+  border-color: #920b0f;
+}
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+}
+#cssmenu li:hover > ul {
+  left: auto;
+}
+#cssmenu.align-right li:hover > ul {
+  right: 0;
+}
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#cssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: height .2s ease;
+  -moz-transition: height .2s ease;
+  -ms-transition: height .2s ease;
+  -o-transition: height .2s ease;
+  transition: height .2s ease;
+}
+#cssmenu ul li:hover > ul > li {
+  height: 32px;
+  z-index: 999;
+}
+#cssmenu ul ul li a {
+  padding: 10px 20px;
+  width: 160px;
+  font-size: 12px;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  text-decoration: none;
+  color: #333333;
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -ms-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #ffffff;
+  background: #333333;
+}
+
+
+
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), 
+only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), 
+only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu {
+    width: 900px;
+  }
+  #cssmenu ul {
+    width: 100%;
+    display: none;
+  }
+  #cssmenu.align-center > ul,
+  #cssmenu.align-right ul ul {
+    text-align: left;
+  }
+  #cssmenu ul li,
+  #cssmenu ul ul li,
+  #cssmenu ul li:hover > ul > li {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgba(120, 120, 120, 0.15);
+  }
+  #cssmenu ul li a,
+  #cssmenu ul ul li a {
+    width: 100%;
+  }
+  #cssmenu > ul > li,
+  #cssmenu.align-center > ul > li,
+  #cssmenu.align-right > ul > li {
+    float: none;
+    display: block;
+  }
+  #cssmenu ul ul li a {
+    padding: 20px 20px 20px 30px;
+    font-size: 12px;
+    color: #000000;
+    background: none;
+  }
+  #cssmenu ul ul li:hover > a,
+  #cssmenu ul ul li a:hover {
+    color: #000000;
+  }
+  #cssmenu ul ul ul li a {
+    padding-left: 40px;
+  }
+  #cssmenu ul ul,
+  #cssmenu ul ul ul {
+    position: relative;
+    left: 0;
+    right: auto;
+    width: 100%;
+    margin: 0;
+  }
+ 
+  #menu-line {
+    display: none;
+  }
+  #cssmenu #menu-button {
+    display: block;
+    padding: 20px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  #cssmenu #menu-button::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    display: block;
+    width: 15px;
+    height: 3px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+  }
+  #cssmenu .submenu-button {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    display: block;
+    border-left: 1px solid rgba(120, 120, 120, 0.15);
+    height: 52px;
+    width: 52px;
+    cursor: pointer;
+  }
+ 
+  #cssmenu .submenu-button::before {
+    content: '';
+    position: absolute;
+    left: 21px;
+    top: 26px;
+    display: block;
+    width: 11px;
+    height: 1px;
+    background: #000000;
+    z-index: 99;
+  }
+ 
+}
+
+
+#mainimage {
+	width: 900px;
+	height: 669px;
+}
+
+div#mainimage ul.bxslider li {
+	width: 900px;
+	}
+
+div#cube { 
+	width: 900px; 
+	height: 720px;
+	position: relative;
+	}
+
+div#cube img { vertical-align:top; }
+
+.gray {
+	width: 140px;
+	height: 140px;
+	padding: 20px;
+	font-size: 14px;
+	background-color: #f4f4f4;
+	position:relative;
+	}
+
+.gray:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+div#cube div {
+	float: left;
+	cursor: pointer;
+	}
+
+div#cube div.cube01 {
+	transition: background-color 0.5s ease;
+}
+
+div#cube div.cube01:after {
+	content:'';
+	display:block; 
+	
+	width: 0px;
+	height: 0px;
+
+	border:6px solid transparent; 
+	border-left-width:10px; 
+	border-left-color:#f4f4f4;
+
+	position:absolute;
+	right:-16px;
+	top:50%;
+	margin-top:-6px;
+	
+	transition: border-left-color 0.5s ease;
+}
+
+div#cube div.cube01:hover:after{	border-left-color:#333;	}
+
+div#cube div.cube03 {
+	float: right;
+	transition: background-color 0.5s ease;
+}
+
+div#cube div.cube03:after {
+	content:'';
+	display:block; 
+	
+	width: 0px;
+	height: 0px;
+
+	border:6px solid transparent; 
+	border-top-width:10px; 
+	border-top-color:#f4f4f4;
+
+	position:absolute;
+	left: 50%;
+	margin-left: -6px;
+	bottom: 0;
+	margin-bottom: -16px;
+
+	transition: border-top-color 0.5s ease;
+}
+
+
+div#cube div.cube03:hover:after{	border-top-color:#333;	}
+
+div#cube div.cube06 {
+	position: relative;
+	top: 180px;
+	transition: background-color 0.5s ease;
+}
+
+div#cube div.cube06:after {
+	content:'';
+	display:block; 
+	
+	width: 0px;
+	height: 0px;
+
+	border:6px solid transparent; 
+	border-right-width:10px; 
+	border-right-color:#f4f4f4;
+
+	position:absolute;
+	left: -16px;
+	bottom: 50%;
+	margin-bottom: -6px;
+
+	transition: border-right-color 0.5s ease;
+
+}
+
+div#cube div.cube06:hover:after{	border-right-color:#333;	}
+
+div#cube div.cube07 {
+	position: relative;
+	z-index: 999;
+	transition: background-color 0.5s ease;
+}
+
+div#cube div.cube07:after {
+	content:'';
+	display:block; 
+	
+	width: 0px;
+	height: 0px;
+
+	border:6px solid transparent; 
+	border-left-width:10px; 
+	border-left-color:#f4f4f4;
+
+	position:absolute;
+	right:-16px;
+	top:50%;
+	margin-top:-6px;
+
+	transition: border-left-color 0.5s ease;
+
+}
+
+div#cube div.cube07:hover:after{	border-left-color:#333;	}
+
+div#cube div.cube08 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/* cube 끝, New arrival 시작 */
+
+div#new {
+	width: 100%;
+	height: 660px;
+	background-color: #f4f4f4;
+	margin: 100px auto;
+	padding: 50px 0 80px 0;
+	}
+
+div.title {	
+	text-align: center;
+	margin-bottom: 80px;
+	}
+
+div#new div.float {
+	width: 900px;
+	height: 285px;
+	margin:0 auto; 
+}
+
+div#new div.float > div { float: left; }
+
+div#new div.float div.text1 { 
+	width: 380px;
+	margin: 25px 0 0 25px;
+	}
+
+span.category
+	{
+	font-size: 10px;
+	color: #999;
+	}
+
+span.name
+	{
+	font-size: 15px;
+	color: #333333;
+	font-weight: 700;
+	}
+
+span.ex
+	{
+		font-size: 11px;
+		color: #333333;
+	}
+
+span.money 
+	{
+		font-size: 12px;
+		color: #333333;
+	}
+
+div.float2 {
+	width: 900px;
+	height: 300px;
+	position: relative;
+		margin:0 auto;
+	margin-top:-50px;
+
+}
+
+div.float2 div.img {
+	height: 210px;
+	position: absolute;
+	right: 0;
+}
+
+div.float2 div.img img {
+	float: left;
+	padding-right: 15px;
+}
+
+div.float2 div.text2 {
+	width: 675px;
+	height: 80px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+div.float2 div.text2 > div {
+	width: 210px;
+	height: 80px;
+	float: left;
+	padding-right: 15px;
+}
+
+div#basic {
+	width: 900px;
+	margin-bottom: 100px;
+}
+
+div#basic div.title {
+	margin-bottom: 80px;
+}
+
+div#basic div.basic_inner{
+	width: 900px;
+	height: 700px;
+	position: relative;
+}
+
+div#basic div.basic_inner div {
+	float: left;
+}
+
+div#basic div.basic_inner div.basic1 {
+	width: 220px;
+	height: 650px;
+}
+
+div#basic div.basic_inner div.basic2 {
+	width: 440px;
+	height: 650px;
+	margin: 0 10px;
+}
+
+div#basic div.basic_inner div.basic3 {
+	width: 220px;
+	height: 650px;
+	position: absolute;
+	right: 0;
+}
+
+div#basic div.basic_inner div.basictext {
+	padding: 10px 0 20px 0;
+}
+
+div.slider_holder {
+	width: 220px;
+	height: 220px;
+	position: relative;
+	}
+
+div.slider_holder div.mask {
+	background: #212121;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    transition: .5s ease opacity;
+	opacity: 0;
+	}
+
+div.slider_holder div.shop {
+    height: 100%;
+    opacity: 0;
+	position: absolute;
+    width: 100%;
+    z-index: 20;
+    transition: opacity .5s;
+	visibility: hidden;
+	text-align: center;
+}
+
+div.shop a{
+	border: 1px solid #fffef7;
+    color: #fff;
+    width: 30%;
+	font-size: 11px;
+	padding: 10px;
+    transition: background-color .5s, color .5s;
+	margin-top: 50%;
+	position: relative;
+	top: -17px;
+}
+
+div.slider_holder:hover .mask{
+	opacity: 0.8;
+}
+
+div.slider_holder:hover .shop {
+
+	visibility: visible;
+	opacity: 1;
+
+}
+
+div.slider_holder .shop a:hover {
+	background:#fff;
+	color:#000;
+}
+
+.cta-button {
+    border: 1px solid #212121;
+    color: #212121;
+    display: inline-block;
+    transition: background .3s ease,color .3s ease;
+	}
+
+div#footer {
+	width: 900px;
+	height: 180px;
+	margin-top: 100px;
+
+}
+
+div#footer ul li {
+	float: left;
+	font-size: 11px;
+	color: #636363;
+	margin-right: 15px;
+}
+
+div#footer ul.sns li{
+	float:right;
+}
+
+div#footer div.copyright {
+	font-size: 11px;
+	color: #636363;
+	padding: 20px 0;
+	line-height: 17px;
+}
+
+/*이 아래로는 BUY 메뉴*/
+
+#product-view {
+	width: 900px;
+	height: 500px;
+
+	box-shadow: 0 0 5px #ccc;
+	margin: 0 auto;
+	margin-bottom: 70px;
+	}
+
+#product-view div { float: left; }
+
+#product-view div.zoom { 
+	overflow:hidden;
+	width:450px;
+	height:500px;
+	}
+
+#product-view .zoom img { display:block; }
+
+#product-view div.zoom .zoomimg {
+	cursor: url('../images/anf-zoomcursor.png'), auto;
+	position: absolute;
+    top: -323.432px;
+    left: -359.258px;
+    opacity: 0;
+    width: 1920px;
+    height: 2522px;
+    border: none;
+    max-width: none;
+    max-height: none;
+}
+
+#product-view div .zooming:hover {
+	opacity:1;
+
+}
+
+#product-view div.info {
+	width: 370px;
+	height: 430px;
+	padding: 40px;
+}
+
+#product-view p { }
+
+#product-view h1.product-name {
+	font-size: 15px;
+	font-weight: 700;
+	color: #3a3a39;
+	margin-bottom: 1.3rem;
+}
+
+ h2 {
+	font-size: 11px;
+	font-weight: 400;
+	color: #3a3a39;
+	line-height: 20px;
+	margin-bottom: 1.3rem;
+}
+
+#product-view .price{
+	text-align: right;
+	margin-bottom:40px;
+}
+
+#product-view .normal-price {
+	font-size: 20px;
+	font-weight: 700;
+	color: #acacac;
+	line-height: 30px;
+	}
+
+#product-view .sale-price {
+	font-size: 20px;
+	font-weight: 700;
+	color: #333333;
+	line-height: 30px;
+}
+
+.normal-price-small {
+	font-size: 12px;
+	color: #acacac;
+}
+
+.sale-price-small {
+	font-size: 12px;
+	color: #333333;
+}
+
+
+/*사이즈 클릭 메뉴*/
+
+div.size_option {
+	width: 370px;
+	background-color: #f3f3f3;
+	border: 1px solid #dbdad1;
+	color: #333;
+	margin-bottom: 40px;
+	z-index:100;
+	position:relative;
+}
+
+div.size_option a.select_size{
+	display: block;
+	font-size: 12px;
+	padding-left: 15px;
+	line-height: 30px;
+}
+
+/*클릭했을 때, size option 컬러가 변경됨*/
+.option_click{
+	background-color: #333;
+	color: #ffffff;
+}
+
+div.size_option ul.size_option_inner {
+	border: 1px solid #dbdad1;
+    border-top: 0;
+    background: #f3f3ef;
+    margin-left: -1px;
+	position:absolute;
+	width:100%;
+}
+
+div.size_option ul.size_option_inner li {
+	display: none;
+}
+
+/*사이즈 메뉴 펼치기 위한 토글클래스*/
+.expand {
+	display: block !important;
+	color: #333;
+	font-size: 12px;
+	line-height: 30px;
+	border-top: 1px solid #dbdad1;
+    text-transform: uppercase;
+    background: #f3f3ef;
+	
+}
+
+div.size_option ul.size_option_inner li a {
+	display: block;
+	padding-left: 15px;
+}
+
+div.size_option ul.size_option_inner li a:hover {
+  color: #ffffff;
+  background: #747474;
+}
+
+.border_none {
+	border: 0;
+}
+
+
+div.info div.buy {
+	width: 370px;
+	height: 40px;
+	background-color: #920b0f;
+	margin-bottom: 10px;
+}
+
+div.info div.buy a {
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 700;
+	color: #fff;
+}
+
+div.info div.buy a:hover {
+	background-color: #7b0a0d;
+}
+
+div.info div.save {
+	width: 180px;
+	height: 40px;
+	color: #333;
+	background-color:#ededed;
+	text-align: center;
+	font-size: 12px;
+	line-height: 40px;
+	display: block;
+
+	margin-right: 10px;
+}
+
+div.info div.save a {
+	display: block;
+	transition: background-color .5s
+}
+
+div.info div.save:hover a{
+	background-color: #333;
+	color: #fff;
+}
+
+div.info div.share{
+	width: 180px;
+	height: 40px;
+	color: #333;
+	background-color:#ededed;
+	text-align: center;
+	font-size: 12px;
+	line-height: 40px;
+	display: block;
+}
+
+div.info div.share a {
+	display: block;
+	transition: background-color .5s
+}
+
+div.info div.share:hover a{
+	background-color: #333;
+	color: #fff;
+}
+
+/*상품설명부분~~*/
+
+#product-tabs {
+	width: 900px;
+	margin: 0 auto;
+
+}
+
+#product-tabs .tabs { 
+	width: 900px;
+	height: 30px;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+
+#product-tabs .tabs li {
+	float: left;
+	width:225px;
+}
+
+
+#product-tabs .tabs li a {
+	background-color:#fff;
+	border-right: 1px solid #212121;
+    border-top: 1px solid #212121;
+    border-bottom: 1px solid #212121;
+    transition: background-color .3s,color .3s;
+	position: relative;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	}
+
+#product-tabs .tabs li:first-child a {
+    border-left: 1px solid #212121;
+}
+
+#product-tabs .tabs li a span{
+	text-align: center;
+    padding-left: 0;
+    font-size: 12px;
+	display: block;
+	}
+
+#product-tabs .tabs li a:hover{
+	background-color:#212121;
+	color: #fff;
+	}
+
+/*현재 위치한 탭 부분만 검은색으로 만들기*/
+
+#product-tabs-01 li a.tab1 {
+	background-color:#212121;
+	color: #fff;
+}
+
+#product-tabs-02 li a.tab2 {
+	background-color:#212121;
+	color: #fff;
+}
+
+#product-tabs-03 li a.tab3 {
+	background-color:#212121;
+	color: #fff;
+}
+
+#product-tabs-04 li a.tab4 {
+	background-color:#212121;
+	color: #fff;
+}
+
+#tabs-wrap01{
+	width: 900px;
+	background-color: #f3f3f3;
+	margin-bottom: 100px;
+}
+
+#tabs-wrap02{
+	background-color: #f3f3f3;
+	margin-bottom: 100px;
+}
+
+#tabs-wrap03{
+	background-color: #f3f3f3;
+	margin-bottom: 100px;
+}
+
+#tabs-wrap04{
+	background-color: #f3f3f3;
+	margin-bottom: 100px;
+}
+
+/*상품정보*/
+
+#product-tabs #additional-info {
+	text-align: center;
+}
+
+#product-tabs #additional-info .season {
+	width: 900px;
+	padding: 100px 0;
+}
+
+
+/* 사이즈 표 */
+
+#table {
+	padding: 50px 0;
+}
+
+.size-chart{
+	width: 840px;
+	margin:0 auto;
+    border-spacing: 0px;
+    border-collapse:collapse;
+
+	}
+
+.alt {
+    background-color: #4D4D4D;
+	}
+
+tr{
+	background-color: #666;
+}
+
+th {
+    border-color: #858585;
+	font-size: 13px;
+    color: #D5D3C8;
+    width: 167px;
+    text-align: center;
+    padding: 3px 0;
+	border-right: 1px solid #747474;
+}
+
+td{
+	font-size: 13px;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+	border-right: 1px solid #747474;
+}
+
+/*제품사용후기*/
+div.customer-review { 
+	width: 100%;
+	height: 130px;
+	text-align: center;
+	display: block;
+}
+
+div.customer-review a {
+	background-color: #920b0f;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	padding: 10px 30px;
+	font-size: 12px;
+	}
+
+/*교환반품안내*/
+
+#pro_after_txt {
+	width: 840px;
+	margin: 0 auto;
+	font-size: 11px;
+	color: #666;
+	padding-bottom: 50px;
+
+}
+
+#pro_after_txt dl dt {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100px;
+    font-weight: bold;
+    color: #666;
+}
+
+#pro_after_txt dd {
+    margin: 0 0 0 100px;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+#pro_after_txt ul li {
+    position: relative;
+    display: block;
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+}
